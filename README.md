@@ -41,13 +41,14 @@ Optional (but fun) task: If authentication with Facebook is enabled, consider pl
 
 
 
-
 Information Posting View
 
 The Information Posting View allows users to input their own data.
 When the Information Posting View is modally presented, the user sees two text fields: one asks for a location and the other asks for a link.
 When the user clicks on the “Find Location” button, the app will forward geocode the string. If the forward geocode fails, the app will display an alert view notifying the user. Likewise, an alert will be displayed if the link is empty.
-![Screen Shot 2019-12-08 at 11 07 33 PM](https://user-images.githubusercontent.com/46827335/70396221-941d4800-1a0f-11ea-9679-5414d47f46c0.png)
+
+![Screen Shot 2019-12-08 at 11 21 43 PM](https://user-images.githubusercontent.com/46827335/70396443-bb751480-1a11-11ea-946b-4933f67784f9.png)
+
 
 If the forward geocode succeeds then text fields will be hidden, and a map showing the entered location will be displayed. Tapping the “Finish” button will post the location and link to the server.
 
@@ -60,3 +61,4 @@ If at any point the user clicks on the “Cancel” button, then the Information
 Likewise, if the submission succeeds, then the Information Posting View should be dismissed, returning the app to the Map and Table Tabbed View.
 
 ![Simulator Screen Shot - iPhone 7 - 2017-10-06 at 14 44 07](https://user-images.githubusercontent.com/46827335/70396303-39382080-1a10-11ea-9e63-1c09cf421be7.png)
+

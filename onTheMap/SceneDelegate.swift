@@ -1,13 +1,14 @@
 //
 //  SceneDelegate.swift
-//  onTheMap
+//  fbLogin
 //
-//  Created by Aly Essam on 8/21/19.
+//  Created by Aly Essam on 11/4/19.
 //  Copyright © 2019 Aly Essam. All rights reserved.
 //
 
 import UIKit
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
